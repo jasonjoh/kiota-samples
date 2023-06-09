@@ -1,0 +1,1 @@
+kiota generate -l CSharp -c ReposClient -n RepoStars.Client -d https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.yaml -o ./src/Client --include-path /user/repos
